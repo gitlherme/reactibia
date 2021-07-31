@@ -7,7 +7,7 @@ function App() {
   const [character, setCharacter] = React.useState('')
 
   const getData = async (name) => {
-    const { data } = await axios.get(`http://api.tibiadata.com/v2/characters/${name}.json`)
+    const { data } = await axios.get(`https://api.tibiadata.com/v2/characters/${name}.json`)
     console.log(data)
     setCharacter(data.characters.data)
   }
