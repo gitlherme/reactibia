@@ -77,7 +77,7 @@ function App() {
               </div>
               
             : 
-            <span className="col-span-12">Personagem não encontrado.</span> 
+            <span className="col-span-12 mt-10">Personagem não encontrado.</span> 
           }
           
         <small className="mt-5">Caso não conheça nenhum personagem, tente por nomes famosos como: Bobeek ou Goraca</small>
